@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instalaciones — El Valle Lechero</title>
+  <meta name="description" content="Instalaciones modernas y amigables con el ganado en el Rancho El Valle Lechero." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav" id="navbar">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo" aria-label="Inicio El Valle Lechero">
+        <span class="nav__logo-mark">V</span>
+        <span class="nav__logo-text">
+          <span class="nav__logo-name">El Valle Lechero</span>
+          <span class="nav__logo-since">Est. 1952</span>
+        </span>
+      </a>
+      <nav class="nav__links" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="instalaciones.html" class="active">Instalaciones</a>
+        <a href="ganado.html">Ganado</a>
+        <a href="productos.html">Productos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="blog.html">Noticias</a>
+      </nav>
+      <a href="contacto.html" class="nav__cta">Contacto</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="navMobile">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="instalaciones.html">Instalaciones</a>
+      <a href="ganado.html">Ganado</a>
+      <a href="productos.html">Productos</a>
+      <a href="galeria.html">Galería</a>
+      <a href="blog.html">Noticias</a>
+      <a href="contacto.html" class="nav__cta nav__cta--mobile">Contacto</a>
+    </div>
+  </header>
+
+  <section id="instalaciones" class="section section--alt">
+    <div class="container">
+      <div class="section__header">
+        <div>
+          <p class="overline">Instalaciones</p>
+          <h2 class="display">Infraestructura al servicio del <em>animal</em>.</h2>
+        </div>
+        <p class="section__intro">Cada decisión de construcción se evaluó pensando primero en el bienestar del ganado y después en la eficiencia operativa.</p>
+      </div>
+
+      <div class="grid-2">
+        <article class="facility reveal">
+          <div class="facility__media"><img src="https://images.unsplash.com/photo-1517363898874-737b62a7db91?auto=format&fit=crop&w=1200&q=80" alt="Sala de ordeño" /><span class="facility__num">01</span></div>
+          <h3>Sala de ordeño rotativa</h3>
+          <p>24 puntos DeLaval con medición individual, limpieza automática y monitoreo de mastitis en tiempo real.</p>
+        </article>
+        <article class="facility reveal">
+          <div class="facility__media"><img src="https://images.unsplash.com/photo-1446126102442-f6b2b73257fd?auto=format&fit=crop&w=1200&q=80" alt="Establo" /><span class="facility__num">02</span></div>
+          <h3>Establos con ventilación cruzada</h3>
+          <p>Cubiertas aisladas, camas de arena y ventiladores de alto volumen que mantienen 22 °C todo el año.</p>
+        </article>
+        <article class="facility reveal">
+          <div class="facility__media"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80" alt="Potreros al amanecer" /><span class="facility__num">03</span></div>
+          <h3>Potreros rotacionales</h3>
+          <p>Pastoreo intensivo Voisin sobre 280 hectáreas. Praderas de rye-grass, trébol y avena.</p>
+        </article>
+        <article class="facility reveal">
+          <div class="facility__media"><img src="https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=1200&q=80" alt="Planta de procesamiento" /><span class="facility__num">04</span></div>
+          <h3>Planta de procesamiento</h3>
+          <p>Pasteurización HTST, maduración de quesos en cava y envasado con trazabilidad por lote.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-controls" aria-label="Controles de sección">
+    <a class="section-controls__btn section-controls__btn--prev" href="nosotros.html">← Nosotros</a>
+    <div class="section-controls__label">Instalaciones</div>
+    <a class="section-controls__btn section-controls__btn--next" href="ganado.html">Ganado →</a>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="nav__logo">
+          <span class="nav__logo-mark nav__logo-mark--gold">V</span>
+          <span class="nav__logo-text">
+            <span class="nav__logo-name" style="color:#FFFDF9">El Valle Lechero</span>
+            <span class="nav__logo-since">Est. 1952</span>
+          </span>
+        </div>
+        <p>Rancho familiar dedicado a la producción láctea y ganadera de alta calidad en Los Altos de Jalisco.</p>
+      </div>
+      <div>
+        <h4 class="overline overline--gold">Navegación</h4>
+        <ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="productos.html">Productos</a></li><li><a href="galeria.html">Galería</a></li><li><a href="blog.html">Noticias</a></li></ul>
+      </div>
+      <div>
+        <h4 class="overline overline--gold">Contacto</h4>
+        <ul><li>+52 (378) 712 4950</li><li><a href="mailto:info@vallelechero.com">info@vallelechero.com</a></li><li style="margin-top:.5rem">Km 14.5 Carretera Tepatitlán</li></ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> El Valle Lechero. Todos los derechos reservados.</span>
+      <span class="overline">Un rancho con orgullo · Los Altos de Jalisco</span>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

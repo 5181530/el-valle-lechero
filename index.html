@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Valle Lechero — Rancho Lechero y Ganadero | Los Altos de Jalisco</title>
+  <meta name="description" content="El Valle Lechero · Tradición ganadera y producción láctea de calidad desde 1952. Leche fresca, quesos artesanales y carne premium en Los Altos de Jalisco." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <header class="nav" id="navbar">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo" aria-label="Inicio El Valle Lechero">
+        <span class="nav__logo-mark">V</span>
+        <span class="nav__logo-text">
+          <span class="nav__logo-name">El Valle Lechero</span>
+          <span class="nav__logo-since">Est. 1952</span>
+        </span>
+      </a>
+
+      <nav class="nav__links" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="instalaciones.html">Instalaciones</a>
+        <a href="ganado.html">Ganado</a>
+        <a href="productos.html">Productos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="blog.html">Noticias</a>
+      </nav>
+
+      <a href="contacto.html" class="nav__cta">Contacto</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" id="navMobile">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="instalaciones.html">Instalaciones</a>
+      <a href="ganado.html">Ganado</a>
+      <a href="productos.html">Productos</a>
+      <a href="galeria.html">Galería</a>
+      <a href="blog.html">Noticias</a>
+      <a href="contacto.html" class="nav__cta nav__cta--mobile">Contacto</a>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="inicio" class="hero">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=2000&q=80" alt="Vacas al atardecer en el rancho" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="overline hero__overline">Desde 1952 · Los Altos de Jalisco, México</p>
+      <h1 class="display">Tradición que se <em>ordeña</em> cada mañana.</h1>
+      <p class="hero__lead">
+        Somos un rancho familiar dedicado a la producción láctea y ganadera de
+        alta calidad. 420 hectáreas, 1,250 cabezas de ganado y tres
+        generaciones de oficio.
+      </p>
+      <div class="hero__cta">
+        <a href="productos.html" class="btn btn--light">Ver nuestros productos →</a>
+        <a href="nosotros.html" class="btn btn--ghost">Conoce el rancho</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__header">
+        <div>
+          <p class="overline">Bienvenido</p>
+          <h2 class="display">El Valle Lechero, tradición y calidad en Los Altos de Jalisco.</h2>
+        </div>
+        <p class="section__intro">Descubre el rancho lechero con producción responsable, productos frescos y una historia de más de 70 años.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="home-card reveal">
+          <h3>Conócenos</h3>
+          <p>Historia familiar, bienestar animal y compromiso con la tierra.</p>
+          <a href="nosotros.html" class="btn btn--ghost">Ir a Nosotros</a>
+        </article>
+        <article class="home-card reveal">
+          <h3>Productos</h3>
+          <p>Leche fresca, quesos artesanales y carne premium directo del rancho.</p>
+          <a href="productos.html" class="btn btn--ghost">Ver Productos</a>
+        </article>
+        <article class="home-card reveal">
+          <h3>Visita</h3>
+          <p>Instalaciones modernas, planta de ordeño y potros rotacionales.</p>
+          <a href="instalaciones.html" class="btn btn--ghost">Ver Instalaciones</a>
+        </article>
+      </div>
+
+      <div class="home-cta reveal">
+        <a href="contacto.html" class="btn btn--primary">Contáctanos</a>
+        <a href="galeria.html" class="btn btn--light">Ver Galería</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="nav__logo">
+          <span class="nav__logo-mark nav__logo-mark--gold">V</span>
+          <span class="nav__logo-text">
+            <span class="nav__logo-name" style="color:#FFFDF9">El Valle Lechero</span>
+            <span class="nav__logo-since">Est. 1952</span>
+          </span>
+        </div>
+        <p>Rancho familiar dedicado a la producción láctea y ganadera de alta calidad en Los Altos de Jalisco.</p>
+      </div>
+      <div>
+        <h4 class="overline overline--gold">Navegación</h4>
+        <ul><li><a href="nosotros.html">Nosotros</a></li><li><a href="instalaciones.html">Instalaciones</a></li><li><a href="productos.html">Productos</a></li><li><a href="galeria.html">Galería</a></li><li><a href="blog.html">Noticias</a></li></ul>
+      </div>
+      <div>
+        <h4 class="overline overline--gold">Contacto</h4>
+        <ul><li>+52 (378) 712 4950</li><li><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ceada1a0baafadbaa18eaba2b8afa2a2aba2abada6abbca1e0a3b6">[email&#160;protected]</a></li><li style="margin-top:.5rem">Km 14.5 Carretera Tepatitlán</li></ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> El Valle Lechero. Todos los derechos reservados.</span>
+      <span class="overline">Un rancho con orgullo · Los Altos de Jalisco</span>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="data.js"></script>
+  <script src="script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"7f7b0fd8732c4326aae4b9d58d5c514a","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
